@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background"
+    tools:context=".UploadAlbumActivity">
+
+    <LinearLayout
+        android:id="@+id/linLayout1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+
+        <EditText
+            android:id="@+id/albumName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Enter Album Name"
+            android:clickable="false"
+            android:editable="false"
+            android:layout_marginEnd="10dp"
+            android:padding="10dp"
+            android:layout_weight="10"
+            android:background="@color/white"
+            android:layout_marginRight="10dp" />
+
+
+        <Button
+            android:id="@+id/btnChoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="choose"
+            android:textSize="15sp"
+            android:backgroundTint="@color/black"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linLayout2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/linLayout1"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageViewAlbumUpload"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/defualt_album_cover"
+            android:contentDescription="@string/todo" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnUploadAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:layout_weight="1"
+            android:text="Upload"
+            android:padding="15dp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

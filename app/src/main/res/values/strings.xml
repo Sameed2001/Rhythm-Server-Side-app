@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Rhythm Server</string>
+    <string name="rhythm">RHYTHM</string>
+    <string name="todo">TODO</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="next">NEXT</string>
+    <string name="login">login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="or">OR</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="login_here">Login here</string>
+    <string name="password_recovery">Password Recovery</string>
+    <string name="send_email">Send Email</string>
+    <string name="user_s_name">User\'s Name</string>
+    <string name="update_details">Update Details</string>
+    <string name="all_songs">ALL SONGS</string>
+</resources>
